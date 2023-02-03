@@ -1,0 +1,13 @@
+{
+  "name": "pblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/pblock",
+    "ssh": "git@github.com:grgshiji/pblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
